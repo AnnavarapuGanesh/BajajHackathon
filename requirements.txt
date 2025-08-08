@@ -1,7 +1,7 @@
 fastapi==0.103.0
 uvicorn[standard]==0.23.2
-google-generativeai==0.8.5
-pinecone==2.2.0
+google-generativeai>=0.8.5  # Remove exact version to pick latest compatible version
+pinecone-client>=5.4.2      # Use pinecone-client package and updated version
 scikit-learn==1.7.1
 numpy==1.26.4
 python-dotenv==1.0.0
